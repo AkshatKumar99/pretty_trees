@@ -5,6 +5,7 @@ import numpy as np
 import os
 from st_pages import Page, show_pages, add_page_title
 
+st.set_page_config(layout='wide')
 add_page_title()
 
 show_pages(
@@ -15,7 +16,6 @@ show_pages(
 	]
 )
 
-st.set_page_config(layout='wide')
 st.title("Tree Viewer")
 st.write(
 	"""
