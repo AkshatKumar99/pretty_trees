@@ -10,7 +10,8 @@ add_page_title()
 show_pages(
 	[
 		Page("tree_viewer.py", "Tree Explorer"),
-		Page("pages/pretty_trees.py", "San Francisco Trees")
+		Page("pages/pretty_trees.py", "San Francisco Trees"),
+		Page("pages/data_quality.py", "SF Tree Dataset Data Quality")
 	]
 )
 
