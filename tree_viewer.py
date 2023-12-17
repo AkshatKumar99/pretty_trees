@@ -7,8 +7,6 @@ from st_pages import Page, show_pages, add_page_title
 
 st.set_page_config(layout='wide')
 
-add_page_title()
-
 show_pages(
 	[
 		Page("tree_viewer.py", "Tree Explorer"),
