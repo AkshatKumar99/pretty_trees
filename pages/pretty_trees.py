@@ -3,6 +3,9 @@ import pandas as pd
 import seaborn as sns 
 import datetime as dt 
 import matplotlib.pyplot as plt 
+from st_pages import add_page_title
+
+add_page_title()
 
 st.title('SF Trees') 
 
