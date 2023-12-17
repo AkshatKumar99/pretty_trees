@@ -3,6 +3,14 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 import os
+from st_pages import Page, show_pages
+
+show_pages(
+	[
+		Page("tree_viewer.py", "Tree Explorer")
+		Page("pages/pretty_trees.py", "San Francisco Trees")
+	]
+)
 
 st.set_page_config(layout='wide')
 st.title("Tree Viewer")
