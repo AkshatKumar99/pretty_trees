@@ -1,16 +1,12 @@
 import streamlit as st 
-
 import pandas as pd 
-
 import seaborn as sns 
 import datetime as dt 
 import matplotlib.pyplot as plt 
 
 st.title('SF Trees') 
 
-st.write('This app analyses trees in San Francisco using' 
-         ' a dataset kindly provided by SF DPW. The ' 
-         'histogram below is filtered by tree owner.') 
+st.write('This app analyses trees specifically in San Francisco using a dataset kindly provided by SF DPW. The histogram below is filtered by tree owner.') 
 
 #load trees dataset, add age column in days 
 trees_df = pd.read_csv('trees.csv') 
