@@ -7,7 +7,7 @@ from st_pages import Page, show_pages
 
 show_pages(
 	[
-		Page("tree_viewer.py", "Tree Explorer")
+		Page("tree_viewer.py", "Tree Explorer"),
 		Page("pages/pretty_trees.py", "San Francisco Trees")
 	]
 )
