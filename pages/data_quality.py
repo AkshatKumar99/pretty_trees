@@ -13,7 +13,8 @@ st.write(
 trees_df = pd.read_csv('trees.csv')
 trees_df = trees_df.dropna(subset=["longitude", "latitude"])
 trees_df_filtered = trees_df[trees_df["legal_status"]=="Private"]
-st.dataframe(trees_df)
+
+edited_df = st.experimental_data_editor(trees_df_filtered)
 
 
 
